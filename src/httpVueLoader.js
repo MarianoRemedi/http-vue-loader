@@ -68,7 +68,7 @@
 
             var mediaScoped =
               "@media " +
-              rule.conditionText + "{" +
+              rule.media.mediaText + "{" +
               tmpScopedMedia +
               "}";
 
