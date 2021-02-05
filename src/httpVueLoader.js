@@ -72,8 +72,6 @@
               tmpScopedMedia +
               "}";
 
-            console.log(rule);
-
             sheet.deleteRule(i);
             sheet.insertRule(mediaScoped, i);
           }
